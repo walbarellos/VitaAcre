@@ -1,0 +1,73 @@
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === Android ===
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.log
+*.iml
+local.properties
+.DS_Store
+.cxx/
+*.o
+*.obj
+*.so
+*.lib
+
+# === IDE ===
+.idea/
+*.iws
+*.ipr
+*.launch
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === Android Studio ===
+app/build/
+app/src/main/res/generated/
+app/src/test/
+app/src/androidTest/
+
+# === Build Outputs ===
+/build
+/out
+*/*/build
+
+# === Log Files ===
+*.log
+logs/
+
+# === Temporary Files ===
+*.tmp
+*.bak
+*.swp
+*~
+
+# === Credentials / Secrets ===
+*.key
+*.keystore
+*.jks
+*.p12
+secrets.properties
+google-services.json
+
+# === Environment ===
+*.env
+.env.*
+credentials.json
+
+# === VitahAcre Specific ===
+*.lock
+package-lock.json
+yarn.lock
