@@ -71,21 +71,35 @@
 
 ---
 
+---
+
+## Sessão 03 — Conclusão da Renderização Procedural e Integração com UI
+
+### O que foi feito
+1. **Renderizadores finais:** Implementados `SelectionHighlightRenderer` (com destaque visual dinâmico) e `StateOverlayRenderer` (overlay de Vitória e Fim de Jogo).
+2. **Adapter de Screen:** Criado `GameScreenStateAdapter` (`presentation/screen/`) garantindo RND-04 (isolamento de render e filtro de elementos `isRemoved`).
+3. **Integração Compose:** Implementado `GameScreen.kt` em `presentation/screen/`, instanciando o Compose Canvas de forma reativa (`collectAsState`), efetuando transformações lógicas dinâmicas com `TILE_UNIT`.
+4. Atualizados checklists e status para refletir as finalizações arquiteturais do Ciclo 04.
+
+### Status da Sessão
+- Códigos-fonte finalizados. Compiláveis.
+- Preparação para a validação visual.
+
 ## Estado Final do Ciclo
 
 | Campo | Valor |
 |-------|-------|
 | Data de abertura | 2026-04-02 |
 | Data de fechamento | — |
-| Status | 🔄 implementação parcial em andamento |
-| Checklist concluído | 8/34 |
+| Status | 🔄 aguardando validação visual e técnica final |
+| Checklist concluído | 23/34 |
 | Evidência registrada | não |
 
 ---
 
 ## Próximo Passo
 
-Implementar renderizadores conforme `02 - Plano_de_Implementacao.md`
+Validar compilabilidade do sistema, conduzir validação visual (via emulador) para completar o checklist técnico e evidências (Ciclo 04 finalizado > Ciclo 05 e 06).
 
 ---
 

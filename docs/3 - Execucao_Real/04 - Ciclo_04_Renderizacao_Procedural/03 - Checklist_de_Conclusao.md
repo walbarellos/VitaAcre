@@ -17,13 +17,13 @@ O ciclo só está concluído quando **todos os itens** estiverem marcados.
 
 - [x] Interface `BoardRenderer` definida em `presentation/canvas/BoardRenderer.kt`
 - [x] Interface `TileRenderer` definida em `presentation/canvas/TileRenderer.kt`
-- [ ] Interface `SelectionHighlightRenderer` definida em `presentation/canvas/SelectionHighlightRenderer.kt`
-- [ ] Interface `StateOverlayRenderer` definida em `presentation/canvas/StateOverlayRenderer.kt`
+- [x] Interface `SelectionHighlightRenderer` definida em `presentation/canvas/SelectionHighlightRenderer.kt`
+- [x] Interface `StateOverlayRenderer` definida em `presentation/canvas/StateOverlayRenderer.kt`
 - [x] `DefaultBoardRenderer` implementado
 - [x] `DefaultTileRenderer` implementado
-- [ ] `DefaultSelectionHighlightRenderer` implementado
-- [ ] `DefaultStateOverlayRenderer` implementado
-- [ ] `GameScreenStateAdapter` implementado em `presentation/screen/GameScreenStateAdapter.kt`
+- [x] `DefaultSelectionHighlightRenderer` implementado
+- [x] `DefaultStateOverlayRenderer` implementado
+- [x] `GameScreenStateAdapter` implementado em `presentation/screen/GameScreenStateAdapter.kt`
 
 ---
 
@@ -33,26 +33,26 @@ O ciclo só está concluído quando **todos os itens** estiverem marcados.
 - [x] RND-02: Zero importações de `domain/rules/` nos arquivos de render
 - [x] RND-03: Zero sprites ou imagens externas — renderização 100% procedural
 - [x] RND-04: Coordenadas derivadas de TILE_UNIT (múltiplos de 2)
-- [ ] RND-05: Peças com `isRemoved = true` não são renderizadas
+- [x] RND-05: Peças com `isRemoved = true` não são renderizadas
 
 ---
 
 ## Bloco 3 — Elementos Visuais
 
-- [ ] Tabuleiro renderizado com grid Based em `BoardConfiguration`
-- [ ] Peças renderizadas com cor derivada de `pairKey`
-- [ ] Seleção destacada visualmente (borda, sombra ou cor alterada)
-- [ ] Overlay de vitória implementado para `GameStatus.VITORIA`
-- [ ] Overlay de sem jogadas implementado para `GameStatus.SEM_JOGADAS`
+- [x] Tabuleiro renderizado com grid Based em `BoardConfiguration`
+- [x] Peças renderizadas com cor derivada de `pairKey`
+- [x] Seleção destacada visualmente (borda, sombra ou cor alterada)
+- [x] Overlay de vitória implementado para `GameStatus.VITORIA`
+- [x] Overlay de sem jogadas implementado para `GameStatus.SEM_JOGADAS`
 
 ---
 
 ## Bloco 4 — Integração com GameScreen
 
-- [ ] `GameScreen` utiliza `Canvas` do Compose
-- [ ] `cellSize` calculado dinamicamente a partir das dimensões da tela
-- [ ] `GameScreenStateAdapter` coordena as chamadas de render
-- [ ] Recomposição ocorre corretamente após mudança de estado via StateFlow
+- [x] `GameScreen` utiliza `Canvas` do Compose
+- [x] `cellSize` calculado dinamicamente a partir das dimensões da tela
+- [x] `GameScreenStateAdapter` coordena as chamadas de render
+- [x] Recomposição ocorre corretamente após mudança de estado via StateFlow
 
 ---
 
@@ -86,14 +86,14 @@ O ciclo só está concluído quando **todos os itens** estiverem marcados.
 
 | Bloco | Itens | Concluídos |
 |-------|-------|------------|
-| Interfaces e Implementações | 9 | 4 |
-| Regras de Isolamento (RND) | 5 | 4 |
-| Elementos Visuais | 5 | 0 |
-| Integração com GameScreen | 4 | 0 |
+| Interfaces e Implementações | 9 | 9 |
+| Regras de Isolamento (RND) | 5 | 5 |
+| Elementos Visuais | 5 | 5 |
+| Integração com GameScreen | 4 | 4 |
 | Validação Visual | 6 | 0 |
 | Conformidade Técnica | 3 | 0 |
 | Evidência | 2 | 0 |
-| **Total** | **34** | **8** |
+| **Total** | **34** | **23** |
 
 ---
 
